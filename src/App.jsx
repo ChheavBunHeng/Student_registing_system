@@ -4,9 +4,13 @@ import TopNavbar from './assets/components/navbar/Navbar.jsx';
 
 function App() {
   return (
-    <div className='flex justify-center items-start w-full h-screen'>
-      <TopNavbar/>
-      <HomePage/>
+    <div className='flex flex-col items-start'>
+      <div>
+        <HomePage></HomePage> 
+      </div>
+      <div>
+        <TopNavbar></TopNavbar>
+      </div>
     </div>
   );
 }
