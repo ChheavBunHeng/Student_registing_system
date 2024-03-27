@@ -1,13 +1,10 @@
 import React from "react";
-
+import "./Home_page.css";
 function Home_Page()
 {
     return(
-        <div>
-
-        <h1>Hello world</h1>
-        <h2>Hello world</h2>
+        <div class="Home_title">
         </div>
     );
 };
-export default Home_Page;
+export default Home_Page;  
