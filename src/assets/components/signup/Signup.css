@@ -12,7 +12,32 @@
     margin-top: 10px;
     margin-bottom: 10px;
   }
-  
+  .UserInputName input,.GenderInput,.DateOfBirth
+  {
+    width: 800px;
+  }
+  .react-select-Course, .react-select-Department
+  {
+    width: 390px;
+  }
+  .PaymentAndFee input
+  {
+    width: 185px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .RegisterAndStart input
+  {
+    width: 390px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .react-select-Register, .react-select-Branch
+  {
+    width: 390px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
   .flex {
     display: flex;
     flex-direction: column;
