@@ -1,0 +1,30 @@
+.Signup-Panel h1
+{
+    font-size: xx-large;
+}
+
+.Signup-Panel input, button
+{
+    width: 500px;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 10px;
+}
+.Signup-Panel input
+{
+    background-color: aliceblue;
+}
+.Signup-Panel button
+{
+    background-color: rgb(116, 116, 116);
+    color: white;
+    transition: 0.5s;
+}
+.Image-Panel img
+{
+    width: 500px;
+    height: 800px;
+    object-fit: fill;
+    border-radius: 10px;
+}
