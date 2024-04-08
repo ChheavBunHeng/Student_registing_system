@@ -5,11 +5,11 @@ import "./Navbar.css";
 
 function Navbar() {
     return (
-        <div className="flex flex-row justify-around align-middle ">
-            <img src="https://img.freepik.com/free-vector/gradient-school-logo-design-template_23-2149664341.jpg?w=826&t=st=1711782841~exp=1711783441~hmac=ac52840c3200819bb8c347dbc8ddceae448f3c74d73a81fb4205fdb181f81eb9" alt="" />
+        <div className="flex flex-row justify-around align-middle bg-slate-500 ">
+            <a href="#">School Logo</a>
             <div className="flex flex-row gap-10">
-                <a href="">Programs</a>
-                <a href="#">Extra-Curricular</a>
+                <a href="#">Course</a>
+                <a href="#">Location</a>
             </div>
             <div className="width-500px bg-red-300">
                 <a href="#">Login/Register</a>

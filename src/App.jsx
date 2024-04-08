@@ -6,15 +6,9 @@ import Signup from './assets/components/signup/Signup.jsx';
 import Signin from './assets/components/signin/Signin.jsx';
 function App() {
   return (
-    <div className='w-screen h-screen'>
-      {/* <TopNavbar></TopNavbar>
-      <div className='flex flex-row'>
-        <SideNavbar></SideNavbar>
-        <Signup></Signup>
-      </div> */}
     <div>
-      <Signin></Signin>
-    </div>
+      <TopNavbar />
+      <HomePage />
     </div>
   );
 }
