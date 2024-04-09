@@ -1,6 +1,14 @@
 import React from "react";
 import "./Home_page.css";
-import Office from "./image/Office.png";
+import Officeimg from "./image/Office.png";
+import coding from "./image/coding.png";
+import accounting from "./image/accounting.png";
+import montage from "./image/montage.png";
+import desgin from "./image/illustration.png";
+import databaseManagment from "./image/database-management.png";
+import webdev from "./image/app-development.png";
+
+import Office from "../page/Office";
 function Home_Page()
 {
     return(
@@ -17,24 +25,74 @@ function Home_Page()
             </div>
             <div className="Category flex flex-col justify-center align-middle gap-10 ">
                 <h1>Browse top category</h1>    
-                <div>
-                    <a href="https://www.youtube.com" className="flex flex-row">
-                    <img src={Office} alt="Office Image" />
+                <div className="flex flex-row gap-10 h-1/3">
+                    <a href="https://www.youtube.com" className="flex flex-row border p-5">
+                    <img src={Officeimg} alt="Office Image" className="w-10 mx-1" />
                         <div>
                             <h1>Office</h1>
                             <h3>Learn with expert anytime anywhere</h3>    
                         </div>
                     </a>
+                    <a href="https://www.youtube.com" className="flex flex-row border p-5">
+                    <img src={desgin} alt="Office Image" className="w-10 mx-1" />
+                        <div>
+                            <h1>Design</h1>
+                            <h3>Learn with expert anytime anywhere</h3>    
+                        </div>
+                    </a>
+                    <a href="https://www.youtube.com" className="flex flex-row border p-5">
+                    <img src={accounting} alt="Office Image" className="w-10 mx-1" />
+                        <div>
+                            <h1>Accounting</h1>
+                            <h3>Learn with expert anytime anywhere</h3>    
+                        </div>
+                    </a>
                 </div>
-                <div>
-                    <a href="#">Label</a>
-                    <a href="#">Label</a>
-                    <a href="#">Label</a>
+                <div className="flex flex-row gap-10 h-1/3">
+                    <a href="https://www.youtube.com" className="flex flex-row border p-5 ">
+                    <img src={coding} alt="Office Image" className="w-10 mx-1" />
+                        <div>
+                            <h1>Computer Programming</h1>
+                            <h3>Learn with expert anytime anywhere</h3>    
+                        </div>
+                    </a>
+                    <a href="https://www.youtube.com" className="flex flex-row border p-5">
+                    <img src={databaseManagment} alt="Office Image" className="w-10 mx-1" />
+                        <div>
+                            <h1>Database Management</h1>
+                            <h3>Learn with expert anytime anywhere</h3>    
+                        </div>
+                    </a>
+                    <a href="https://www.youtube.com" className="flex flex-row border p-5">
+                    <img src={webdev} alt="Office Image" className="w-10 mx-1" />
+                        <div>
+                            <h1>Web Design & Development</h1>
+                            <h3>Learn with expert anytime anywhere</h3>    
+                        </div>
+                    </a>
                 </div>
-                <div>
-                    <a href="#">Label</a>
-                    <a href="#">Label</a>
-                    <a href="#">Label</a>
+                <div className="flex flex-row gap-10 h-1/3">
+                    <a href="https://www.youtube.com" className="flex flex-row border p-5 ">
+                    <img src={montage} alt="Office Image" className="w-10 mx-1" />
+                        <div>
+                            <h1>Video Editing</h1>
+                            <h3>Learn with expert anytime anywhere</h3>    
+                        </div>
+                    </a>
+                    <a href="https://www.youtube.com" className="flex flex-row border p-5">
+                    <img src={Office} alt="Office Image" className="w-10 mx-1" />
+                        <div>
+                            <h1>Office</h1>
+                            <h3>Learn with expert anytime anywhere</h3>    
+                        </div>
+                    </a>
+                    <a href="https://www.youtube.com" className="flex flex-row border p-5">
+                    <img src={Office} alt="Office Image" className="w-10 mx-1" />
+                        <div>
+                            <h1>Office</h1>
+                            <h3>Learn with expert anytime anywhere</h3>    
+                        </div>
+                    </a>
                 </div>
             </div>
         </div>
