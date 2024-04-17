@@ -8,7 +8,7 @@ import desgin from "./image/illustration.png";
 import databaseManagment from "./image/database-management.png";
 import webdev from "./image/app-development.png";
 
-import Office from "../page/Office";
+// import Office from "../page/Office";
 function Home_Page()
 {
     return(
@@ -76,20 +76,6 @@ function Home_Page()
                     <img src={montage} alt="Office Image" className="w-10 mx-1" />
                         <div>
                             <h1>Video Editing</h1>
-                            <h3>Learn with expert anytime anywhere</h3>    
-                        </div>
-                    </a>
-                    <a href="https://www.youtube.com" className="flex flex-row border p-5">
-                    <img src={Office} alt="Office Image" className="w-10 mx-1" />
-                        <div>
-                            <h1>Office</h1>
-                            <h3>Learn with expert anytime anywhere</h3>    
-                        </div>
-                    </a>
-                    <a href="https://www.youtube.com" className="flex flex-row border p-5">
-                    <img src={Office} alt="Office Image" className="w-10 mx-1" />
-                        <div>
-                            <h1>Office</h1>
                             <h3>Learn with expert anytime anywhere</h3>    
                         </div>
                     </a>
