@@ -9,8 +9,8 @@ import Office from "./assets/components/Category/Office.jsx";
 function App() {
   return (
     <div>
-      {/* <TopNavbar />
-      <HomePage /> */}
+      <TopNavbar />
+      <HomePage />
       <Office></Office>
     </div>
   );
