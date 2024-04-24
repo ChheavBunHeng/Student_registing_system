@@ -7,21 +7,21 @@ function Programming() {
             description: "The ultimate tool for web design and prototyping. Create stunning designs with precision and creativity.",
             price: "$10",
             category: "Programming",
-            imageUrl: "https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            imageUrl: "https://seeklogo.com/images/J/java-logo-7833D1D21A-seeklogo.com.png"
         },
         {
             name: "C++",
             description: "The ultimate tool for web design and prototyping. Create stunning designs with precision and creativity.",
             price: "$15",
             category: "Programming",
-            imageUrl: "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+            imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1822px-ISO_C%2B%2B_Logo.svg.png"
         },
         {
             name: "Python",
             description: "The ultimate tool for web design and prototyping. Create stunning designs with precision and creativity.",
             price: "$20",
             category: "Programming",
-            imageUrl: "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+            imageUrl: "https://www.ntuclearninghub.com/documents/39367/4216797/Python-Symbol.png/369e410e-a90f-f887-c2dc-61f7ef761476/"
         }
     ]
     return (
@@ -32,7 +32,7 @@ function Programming() {
                 // eslint-disable-next-line react/jsx-key
                 <div className="Card w-[300px] h-[350px] border flex-col flex-wrap hover:shadow-lg duration-300 ease-in-out">
                     <div className="Card-Image flex justify-center align-middle">
-                        <img src={product.imageUrl} className="w-[250px] h-[150px] m-[10px] border-r object-cover rounded" />
+                        <img src={product.imageUrl} className="w-[250px] h-[150px] m-[10px] border-2 object-contain rounded p-[10px]" />
                     </div>
                     <div className="flex justify-center Card-Content m-[10px] gap-[10px]">
                         <div className="flex flex-row justify-around w-[250px]">

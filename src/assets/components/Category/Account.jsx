@@ -7,14 +7,14 @@ function Account() {
             description: "The ultimate tool for accounting. Unlock your creativity with powerful features and precise control.",
             price: "$10",
             category: "Accounting",
-            imageUrl: "https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            imageUrl: "https://businessyield.com/wp-content/uploads/2021/06/peachtreebySage.jpg"
         },
         {
             name: "QuickBooks Premium",
             description: "The ultimate tool for accounting. Unlock your creativity with powerful features and precise control.",
             price: "$10",
             category: "Accounting",
-            imageUrl: "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+            imageUrl: "https://rksbusiness.com/wp-content/uploads/2022/09/QuickBooks-Logo-Preferred-RGB.png"
         }
     ]
     return (
@@ -25,7 +25,7 @@ function Account() {
                 // eslint-disable-next-line react/jsx-key
                 <div className="Card w-[300px] h-[350px] border flex-col flex-wrap hover:shadow-lg duration-300 ease-in-out">
                     <div className="Card-Image flex justify-center align-middle">
-                        <img src={product.imageUrl} className="w-[250px] h-[150px] m-[10px] border-r object-cover rounded" />
+                    <img src={product.imageUrl} className="w-[250px] h-[150px] m-[10px] border-2 object-contain rounded p-[10px]" />
                     </div>
                     <div className="flex justify-center Card-Content m-[10px] gap-[10px]">
                         <div className="flex flex-row justify-around w-[250px]">

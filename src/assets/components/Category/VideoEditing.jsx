@@ -7,35 +7,35 @@ function VideoEditing() {
             description: "The ultimate tool for video editing and prototyping. Create stunning videos with precision and creativity.",
             price: "$10",
             category: "Video Editing",
-            imageUrl: "https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            imageUrl: "https://images.unsplash.com/photo-1536240478700-b869070f9279?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YWRvYmUlMjBwcmVtaWVyZSUyMHByb3xlbnwwfHwwfHx8MA%3D%3D"
         },
         {
             name: "Adobe After Effects",
             description: "The ultimate tool for video editing and prototyping. Create stunning videos with precision and creativity.",
             price: "$15",
             category: "Video Editing",
-            imageUrl: "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+            imageUrl: "https://images.unsplash.com/photo-1501780392773-287d506245a5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8YWZ0ZXIlMjBlZmZlY3R8ZW58MHx8MHx8fDA%3D"
         },
         {
             name: "Song Vegas",
             description: "The ultimate tool for video editing and prototyping. Create stunning videos with precision and creativity.",
             price: "$20",
             category: "Video Editing",
-            imageUrl: "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+            imageUrl: "https://media.licdn.com/dms/image/D5612AQFyDcTCGugUdA/article-cover_image-shrink_600_2000/0/1707909229094?e=2147483647&v=beta&t=I7BcT4VuhPhR0xSPcc3-JC3dKSm-xHE16Qcuh0kL1r4"
         },
         {
             name: "Cartoon Animation 4K",
             description: "The ultimate tool for video editing and prototyping. Create stunning videos with precision and creativity.",
             price: "$25",
             category: "Video Editing",
-            imageUrl: "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+            imageUrl: "https://www.cartoonbrew.com/wp-content/uploads/2022/11/main_cartoonbrew-580x326.jpg"
         },
         {
             name: "Daz 3D Studio",
             description: "The ultimate tool for video editing and prototyping. Create stunning videos with precision and creativity.",
             price: "$30",
             category: "Video Editing",
-            imageUrl: "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"  
+            imageUrl: "https://upload.wikimedia.org/wikipedia/fr/8/83/Daz_wikipedia.png?20190706135803"  
         }
     ]
     return (
