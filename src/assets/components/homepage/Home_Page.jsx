@@ -13,9 +13,9 @@ function Home_Page()
 {
     return(
         <div className="Home_Page">
-            <div className="Home_Panel flex flex-row justify-around w-screen flex-wrap">
-                <div className="Text-panel w-1/2 h-36 flex justify-center align-middle bg-slate-500">
-                    <h1>Learn with expert anytime anywhere</h1>
+            <div className="Home_Panel flex flex-row justify-around w-screen flex-wrap h-[30vh] bg-slate-500">
+                <div className="Text-panel w-1/2 h-36 flex justify-center align-middle ">
+                    <h1 className="text-3xl">Learn with expert anytime anywhere</h1>
                     <h3>Our mission is to help people to find the best course for 
                     their needs with the expereince of our teacher</h3>
                 </div>

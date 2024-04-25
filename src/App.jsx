@@ -13,7 +13,7 @@ import WebDev from './assets/components/Category/WebDev.jsx';
 import VideoEditing from './assets/components/Category/VideoEditing.jsx';
 function App() {
   return (
-    <div>
+    <div className=''>
       <TopNavbar />
       <HomePage />
       <Office></Office>
