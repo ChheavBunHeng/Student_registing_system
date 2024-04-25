@@ -1,5 +1,5 @@
 import React from "react";
-import "./Office.css";
+import {motion} from "framer-motion";
 function Office() {
     const Products = [
         {
@@ -68,7 +68,20 @@ function Office() {
           
     ]
     return (
-        <div className="flex flex-row flex-wrap gap-10">
+        <motion.div className="flex flex-row flex-wrap gap-10"
+          initial={{ 
+            y: 100,
+            opacity: 0 
+          }}
+          animate={{
+            opacity: 1,
+            y: 0
+            }}
+
+          exit={{ opacity: 0 }}
+          transition={{ duration: 1, type:"spring",staggerChildren:1 }}
+        >
+        
            {
             // eslint-disable-next-line no-unused-vars
             Products.map((product) =>(
@@ -88,7 +101,7 @@ function Office() {
                 </div>
             ))
            }
-        </div>
+        </motion.div>
     );
 }
 

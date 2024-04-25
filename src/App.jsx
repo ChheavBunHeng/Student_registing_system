@@ -1,4 +1,5 @@
 import React from 'react';
+import {motion} from "framer-motion";
 import HomePage from './assets/components/homepage/Home_Page.jsx';
 import TopNavbar from './assets/components/navbar/Navbar.jsx';
 import SideNavbar from "./assets/components/navbar/Sidebar.jsx";
@@ -11,6 +12,7 @@ import Programming from './assets/components/Category/Programming.jsx';
 import Database from './assets/components/Category/Database.jsx';
 import WebDev from './assets/components/Category/WebDev.jsx';
 import VideoEditing from './assets/components/Category/VideoEditing.jsx';
+import Footer from './assets/components/footer/Footer.jsx';
 function App() {
   return (
     <div className=''>
@@ -23,6 +25,7 @@ function App() {
       <Database></Database>
       <WebDev></WebDev>
       <VideoEditing></VideoEditing>
+      <Footer></Footer>
     </div>
   );
 }
