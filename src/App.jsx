@@ -1,4 +1,5 @@
 import React from 'react';
+import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
 import {motion} from "framer-motion";
 import HomePage from './assets/components/homepage/Home_Page.jsx';
 import TopNavbar from './assets/components/navbar/Navbar.jsx';
@@ -15,17 +16,21 @@ import VideoEditing from './assets/components/Category/VideoEditing.jsx';
 import Footer from './assets/components/footer/Footer.jsx';
 function App() {
   return (
-    <div className=''>
-      <TopNavbar />
-      <HomePage />
-      <Office></Office>
-      <Design></Design>
-      <Account></Account>
-      <Programming></Programming>
-      <Database></Database>
-      <WebDev></WebDev>
-      <VideoEditing></VideoEditing>
-      <Footer></Footer>
+    
+    <div>
+      <TopNavbar/>
+      <Switch>
+        <Route exact path="/" component={HomePage}/>
+        <Route exact path="/signup" component={Signup}/>
+        <Route exact path="/signin" component={Signin}/>
+        <Route exact path="/office" component={Office}/>
+        <Route exact path="/design" component={Design}/>
+        <Route exact path="/account" component={Account}/>
+        <Route exact path="/programming" component={Programming}/>
+        <Route exact path="/database" component={Database}/>
+        <Route exact path="/webdev" component={WebDev}/>
+        <Route exact path="/videoediting" component={VideoEditing}/>
+      </Switch>
     </div>
   );
 }
