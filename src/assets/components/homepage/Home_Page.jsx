@@ -26,24 +26,24 @@ function Home_Page()
             <div className="Category flex flex-col justify-center align-middle gap-10 ">
                 <h1>Browse top category</h1>    
                 <div className="flex flex-row gap-10 h-1/3 justify-center align-middle flex-wrap">
-                    <a href="#" className="flex flex-row border p-[10px] w-[450px] h-[150px] ">
+                    <a href="#" className="flex flex-row border p-[10px] w-[450px] h-[150px]">
                     <img src={Officeimg} alt="Office Image" className="w-[50px] mx-[10px]" />
                         <div className="p-1">
-                            <h1>Office</h1>
+                            <h1 className="text-xl font-extrabold">Office</h1>
                             <h3>Learn with expert anytime anywhere</h3>    
                         </div>
                     </a>
-                    <a href="https://www.youtube.com" className="flex flex-row border p-[10px] w-[450px] h-[150px] ">
+                    <a href="https://www.youtube.com" className="flex flex-row border p-[10px] w-[450px] h-[150px]">
                     <img src={desgin} alt="Office Image" className="w-[50px] mx-[10px]" />
                         <div className="p-1">
-                            <h1>Design</h1>
+                            <h1 className="text-xl font-extrabold">Design</h1>
                             <h3>Learn with expert anytime anywhere</h3>    
                         </div>
                     </a>
                     <a href="https://www.youtube.com" className="flex flex-row border p-[10px] w-[450px] h-[150px] ">
                     <img src={accounting} alt="Office Image" className="w-[50px] mx-[10px]" />
                     <div className="p-1">
-                            <h1>Accounting</h1>
+                            <h1 className="text-xl font-extrabold">Accounting</h1>
                             <h3>Learn with expert anytime anywhere</h3>    
                         </div>
                     </a>
@@ -52,21 +52,21 @@ function Home_Page()
                     <a href="https://www.youtube.com" className="flex flex-row border p-[10px] w-[450px] h-[150px]  ">
                     <img src={coding} alt="Office Image" className="w-[50px] mx-[10px]" />
                     <div className="p-1">
-                            <h1>Computer Programming</h1>
+                            <h1 className="text-xl font-extrabold">Computer Programming</h1>
                             <h3>Learn with expert anytime anywhere</h3>    
                         </div>
                     </a>
                     <a href="https://www.youtube.com" className="flex flex-row border p-[10px] w-[450px] h-[150px] ">
                     <img src={databaseManagment} alt="Office Image" className="w-[50px] mx-[10px]" />
                     <div className="p-1">
-                            <h1>Database Management</h1>
+                            <h1 className="text-xl font-extrabold">Database Management</h1>
                             <h3>Learn with expert anytime anywhere</h3>    
                         </div>
                     </a>
                     <a href="https://www.youtube.com" className="flex flex-row border p-[10px] w-[450px] h-[150px] ">
                     <img src={webdev} alt="Office Image" className="w-[50px] mx-[10px]" />
                     <div className="p-1">
-                            <h1>Web Design & Development</h1>
+                            <h1 className="text-xl font-extrabold">Web Design & Development</h1>
                             <h3>Learn with expert anytime anywhere</h3>    
                         </div>
                     </a>
@@ -75,7 +75,7 @@ function Home_Page()
                     <a href="https://www.youtube.com" className="flex flex-row border p-[10px] w-[450px] h-[150px]  ">
                     <img src={montage} alt="Office Image" className="w-[50px] mx-[10px]" />
                     <div className="p-1">
-                            <h1>Video Editing</h1>
+                            <h1 className="text-xl font-extrabold">Video Editing</h1>
                             <h3>Learn with expert anytime anywhere</h3>    
                         </div>
                     </a>
