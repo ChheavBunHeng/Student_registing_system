@@ -1,19 +1,25 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
-import "./Navbar.css";
-
-
+import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+import "./Navbar.css"; // Make sure this file exists and contains CSS definitions.
+import WebDev from "../Category/WebDev"; // Import WebDev component if needed.
+import Office from "../Category/Office";
 function Navbar() {
     return (
-        <div className="flex flex-row justify-around align-middle w-full bg-blue-200 h-[10vh]">
-            <a href="#">School Logo</a>
-            <div className="flex flex-row gap-10">
-                <a href="#">Course</a>
-                <a href="#">Location</a>
-            </div>
-            <div className="width-500px bg-red-300">
-                <a href="#">Login/Register</a>
-            </div>
+        <div>
+            <h1>Navbar</h1>
+            <BrowserRouter>
+                <div>
+                    {/* Use Link component to create a clickable link */}
+                    <Link to="/webdev">WebDev</Link>
+                    <Link to="/office">Office</Link>
+                </div>
+                <Routes>
+                    {/* Define your routes here */}
+                    <Route path="/office" element={<Office />}></Route>
+                    <Route path="/webdev" element={<WebDev />} />
+                </Routes>
+            </BrowserRouter>
         </div>
     );
 }
