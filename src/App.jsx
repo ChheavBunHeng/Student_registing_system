@@ -17,6 +17,7 @@ function App() {
   return (
     <div>
       <HomePage></HomePage>
+      <Office></Office>
       <Footer></Footer>
     </div>
   );
