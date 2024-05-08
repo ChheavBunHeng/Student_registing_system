@@ -13,11 +13,13 @@ import Database from './assets/components/Category/Database.jsx';
 import WebDev from './assets/components/Category/WebDev.jsx';
 import VideoEditing from './assets/components/Category/VideoEditing.jsx';
 import Footer from './assets/components/footer/Footer.jsx';
+import Navbar from './assets/components/navbar/Navbar.jsx';
 function App() {
   return (
     <div>
       <HomePage></HomePage>
       <Office></Office>
+      <Navbar></Navbar>
       <Footer></Footer>
     </div>
   );
