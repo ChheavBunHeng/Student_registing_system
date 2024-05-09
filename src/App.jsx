@@ -16,10 +16,10 @@ import Footer from './assets/components/footer/Footer.jsx';
 import Navbar from './assets/components/navbar/Navbar.jsx';
 function App() {
   return (
-    <div>
-      <HomePage></HomePage>
-      <Office></Office>
-      <Navbar></Navbar>
+    <div className='flex gap-[32px] overflow-x-hidden'>
+      <HomePage className='w-full '></HomePage>
+      {/* <Office></Office> */}
+      {/* <Navbar></Navbar> */}
       <Footer></Footer>
     </div>
   );
