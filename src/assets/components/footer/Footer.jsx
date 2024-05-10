@@ -29,7 +29,6 @@ function Footer() {
         <h4 className="title text-xl md:text-2xl font-extrabold mb-4">Quick Links</h4>
         <ul className="text-sm md:text-base">
           <li><a href="" className="text-blue-900 hover:text-blue-600">About</a></li>
-          <li><a href="" className="text-blue-900 hover:text-blue-600">Become instructor</a></li>
           <li><a href="" className="text-blue-900 hover:text-blue-600">Contact</a></li>
           <li><a href="" className="text-blue-900 hover:text-blue-600">Career</a></li>
         </ul>
@@ -41,8 +40,6 @@ function Footer() {
         <ul className="text-sm md:text-base">
           <li><a href="" className="text-blue-900 hover:text-blue-600">Help Center</a></li>
           <li><a href="" className="text-blue-900 hover:text-blue-600">FAQs</a></li>
-          <li><a href="" className="text-blue-900 hover:text-blue-600">Terms & Condition</a></li>
-          <li><a href="" className="text-blue-900 hover:text-blue-600">Privacy Policy</a></li>
         </ul>
       </div>
     </div>
