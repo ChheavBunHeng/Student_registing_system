@@ -2,9 +2,9 @@ import React from "react";
 
 function Footer() {
   return (
-    <div className="flex flex-col md:flex-row justify-evenly items-center bg-blue-300 w-full py-8 md:h-[30vh] flex-wrap gap-4">
+<div className="flex flex-col md:flex-row justify-evenly items-start bg-blue-300 w-full py-8 md:h-[30vh] flex-wrap gap-4">
       {/* Media Section */}
-      <div className="media-contain w-full md:w-[300px] flex flex-col justify-center items-center">
+      <div className="media-contain w-full md:w-[300px] flex flex-col justify-center  ">
         <h4 className="title text-xl md:text-2xl font-extrabold mb-4">Media</h4>
         <p className="text-sm md:text-base text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.</p>
         <ul className="flex flex-row gap-2 md:gap-4 justify-center">
