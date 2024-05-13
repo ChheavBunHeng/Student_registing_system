@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
-import Support from "./Support";
+// import Support from "./Support";
 function Footer() {
   return (
 <div className="flex flex-col md:flex-row justify-evenly items-start bg-blue-50 w-full py-8 md:h-[20vh] flex-wrap gap-4">
@@ -19,7 +19,10 @@ function Footer() {
       <div className="category-contain w-full md:w-[300px] flex flex-col justify-center items-center">
         <h4 className="title text-xl md:text-2xl font-extrabold mb-4">Contact Us</h4>
         <ul className="text-sm md:text-base">
-          
+        <p className="text-blue-900 hover:text-blue-600 transition duration-300 font-bold">(+855) 96 398 6647</p>
+        <p className="text-blue-900 hover:text-blue-600 transition duration-300 font-bold">(+855) 99 735923</p>
+        <li><a href="https://t.me/kosalhun" className="text-blue-900 hover:text-blue-600 transition duration-300 font-bold">Telegram</a></li>
+        <li><a href="https://web.facebook.com/messages/t/104223471604381" className="text-blue-900 hover:text-blue-600 transition duration-300 font-bold">Messager</a></li>
         </ul>
       </div>
 
@@ -34,17 +37,11 @@ function Footer() {
       </div>
 
       {/* Support Section */}
-      {/* <BrowserRouter>
-        <Routes>
-          <Route path="/support" element={<Support />}></Route>
-        </Routes>
-      </BrowserRouter> */}
         <div className="support-contain w-full md:w-[300px] flex flex-col justify-center items-center">
           <h4 className="title text-xl md:text-2xl font-extrabold mb-4">Support</h4>
           <nav>
           <ul className="text-sm md:text-base">
             <li><a href="" className="text-blue-900 hover:text-blue-600 transition duration-300 font-bold">Help Center</a></li>
-            <li><Link></Link></li>
           </ul>
           </nav>
         </div>

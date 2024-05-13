@@ -37,8 +37,8 @@ function Home_Page() {
             {/* Top Panel */}
             <div className="Home_Panel flex flex-row w-screen flex-wrap h-[30vh] bg-gray-100 ">
                 <div className="Text-panel w-1/2 h-36 flex justify-center align-middle p-10">
-                    <h1 className="text-3xl">Learn with expert anytime anywhere</h1>
-                    <h3>Our mission is to help people to find the best course for their needs with the experience of our teacher</h3>
+                    <h1 className="text-3xl font-bold">Learn with expert anytime anywhere</h1>
+                    <h3 className="text-lg">Our mission is to help people to find the best course for their needs with the experience of our teacher</h3>
                 </div>
                 <img src={CitoImage} className="w-1/2 h-[30vh] object-cover"/>
             </div>
@@ -47,20 +47,19 @@ function Home_Page() {
             <div className="flex justify-center items-center flex-wrap flex-row px-[32px] sm:">
             {/* Render navigation links */} 
             {Products.map((Product, index) => (
-                 <Link key={index} to={Product.Path} className="flex flex-col items-center justify-center m-4 border p-[30px] ">
+                <Link key={index} to={Product.Path} className="flex flex-col items-center justify-center m-4 border p-[30px] ">
                     <img src={Product.Image} alt={Product.Name} className="max-w-xs" />
                     <h1 className="text-lg font-semibold">{Product.Name}</h1> 
                     <p className="text-sm">{Product.Desc}</p>
                 </Link>
             ))}
-    </div>
+            </div>
                 <Routes>
                     {/* Render routes dynamically */}
                     {Products.map((Product, index) => (
                         
                         <Route key={index} path={Product.Path} element={
                             <div>
-                            
                                 <Product.Component />
                             </div>
                         } />
