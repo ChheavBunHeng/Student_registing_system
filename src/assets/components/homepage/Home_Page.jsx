@@ -37,8 +37,8 @@ function Home_Page() {
             {/* Top Panel */}
             <div className="Home_Panel flex flex-row w-screen flex-wrap h-[30vh] bg-gray-100 ">
                 <div className="Text-panel w-1/2 h-36 flex justify-center align-middle p-10">
-                    <h1 className="text-3xl font-bold">Learn with expert anytime anywhere</h1>
-                    <h3 className="text-lg">Our mission is to help people to find the best course for their needs with the experience of our teacher</h3>
+                    <h1 className="text-sm md:text-2xl font-bold">Learn with expert anytime anywhere</h1>
+                    <h3 className="text-sm md:text-2xl">Our mission is to help people to find the best course for their needs with the experience of our teacher</h3>
                 </div>
                 <img src={CitoImage} className="w-1/2 h-[30vh] object-cover"/>
             </div>

@@ -17,7 +17,7 @@ import Navbar from './assets/components/navbar/Navbar.jsx';
 import Support from './assets/components/footer/Support.jsx';
 function App() {
   return (
-    <div className='overflow-x-hidden'>
+    <div className='overflow-x-hidden overflow-y-hidden'>
       <TopNavBar></TopNavBar>
       <div className='flex gap-[32px]'>
       <HomePage className='w-full'></HomePage>
