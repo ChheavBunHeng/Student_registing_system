@@ -54,7 +54,7 @@ function Office() {
           {
             name: "Word + Excel + Powerpoint",
             description: "A Microsoft Office suite course covers essential skills in Word, Excel, and PowerPoint.",
-            price: "$35",
+            price: "$38.5",
             category: "Office",
             imageUrl:"https://img-c.udemycdn.com/course/750x422/2624894_1615.jpg"
           },

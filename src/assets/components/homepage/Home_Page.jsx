@@ -1,5 +1,5 @@
-import React from "react";
-import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+import React, { useEffect } from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./Home_page.css";
 
 // Import images
@@ -32,6 +32,20 @@ function Home_Page() {
         { Name: "WebDev", Component: WebDev, Image: webdevimg, Desc: "Learn with expert anytime anywhere", Path: "/webdev" },
     ];
 
+    // Function to handle smooth scrolling behavior
+    const scrollToSection = (path) => {
+        const section = document.getElementById(path.substring(1));
+        if (section) {
+            section.scrollIntoView({ behavior: "smooth" });
+        }
+    };
+
+    // Effect to handle scrolling when the URL changes
+    useEffect(() => {
+        const path = window.location.pathname;
+        scrollToSection(path);
+    }, []);
+
     return (
         <div className="Home_Page flex justify-center w-full">
             {/* Top Panel */}
@@ -44,26 +58,24 @@ function Home_Page() {
             </div>
 
             <BrowserRouter>
-            <div className="flex justify-center items-center flex-wrap flex-row px-[32px] sm:">
-            {/* Render navigation links */} 
-            {Products.map((Product, index) => (
-                <Link key={index} to={Product.Path} className="flex flex-col items-center justify-center m-4 border p-[30px] ">
-                    <img src={Product.Image} alt={Product.Name} className="max-w-xs" />
-                    <h1 className="text-lg font-semibold">{Product.Name}</h1> 
-                    <p className="text-sm">{Product.Desc}</p>
-                </Link>
-            ))}
-            </div>
+                <div className="flex justify-center items-center flex-wrap flex-row px-[32px] sm:">
+                    {/* Render navigation links */}
+                    {Products.map((Product, index) => (
+                        <a key={index} href={Product.Path} onClick={() => scrollToSection(Product.Path)} className="flex flex-col items-center justify-center m-4 border p-[30px]">
+                            <img src={Product.Image} alt={Product.Name} className="max-w-xs" />
+                            <h1 className="text-lg font-semibold">{Product.Name}</h1> 
+                            <p className="text-sm">{Product.Desc}</p>
+                        </a>
+                    ))}
+                </div>
                 <Routes>
                     {/* Render routes dynamically */}
                     {Products.map((Product, index) => (
-                        
                         <Route key={index} path={Product.Path} element={
-                            <div>
+                            <div id={Product.Path.substring(1)} className="transition-opacity duration-500">
                                 <Product.Component />
                             </div>
                         } />
-                        
                     ))}
                 </Routes>
             </BrowserRouter>

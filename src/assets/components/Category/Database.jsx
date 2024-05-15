@@ -2,29 +2,30 @@ import React from 'react';
 import { motion } from 'framer-motion';
 
 function Database() {
-    const Products =[
+    const Products = [
         {
             name: "MySQL",
-            description: "The ultimate tool for web design and prototyping. Create stunning designs with precision and creativity.",
-            price: "$10",
+            description: "A robust relational database management system (RDBMS) known for its reliability and performance.",
+            price: "$70",
             category: "Database",
             imageUrl: "https://d1.awsstatic.com/asset-repository/products/amazon-rds/1024px-MySQL.ff87215b43fd7292af172e2a5d9b844217262571.png"
         },
         {
             name: "MongoDB",
-            description: "The ultimate tool for web design and prototyping. Create stunning designs with precision and creativity.",
-            price: "$15",
-            imageUrl: "https://miro.medium.com/v2/resize:fit:610/1*mMq3Bem9r8ASAn1YwcTbEw.png",
+            description: "A leading NoSQL database offering flexibility and scalability for modern applications.",
+            price: "$30",
             category: "Database",
+            imageUrl: "https://seeklogo.com/images/M/mongodb-logo-4A71340576-seeklogo.com.png",
         },
         {
             name: "PostgreSQL",
-            description: "The ultimate tool for web design and prototyping. Create stunning designs with precision and creativity.",
-            price: "$20",
+            description: "A powerful open-source relational database known for its advanced features and standards compliance.",
+            price: "$30",
             category: "Database",
             imageUrl: "https://miro.medium.com/v2/resize:fit:610/1*mMq3Bem9r8ASAn1YwcTbEw.png"
         }
     ];
+    
 
     return (
         <motion.div

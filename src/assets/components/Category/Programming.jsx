@@ -4,27 +4,42 @@ import { motion } from "framer-motion";
 function Programming() {
     const Products = [
         {
-            name: "Java",
-            description: "The ultimate tool for web design and prototyping. Create stunning designs with precision and creativity.",
-            price: "$10",
+            name: "C",
+            description: "A powerful programming language commonly used for system programming.",
+            price: "$40",
             category: "Programming",
-            imageUrl: "https://seeklogo.com/images/J/java-logo-7833D1D21A-seeklogo.com.png"
+            imageUrl: "https://seeklogo.com/images/C/c-programming-language-logo-9B32D017B1-seeklogo.com.png"
         },
         {
             name: "C++",
-            description: "The ultimate tool for web design and prototyping. Create stunning designs with precision and creativity.",
-            price: "$15",
+            description: "An extension of the C programming language with object-oriented features.",
+            price: "$40",
             category: "Programming",
             imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1822px-ISO_C%2B%2B_Logo.svg.png"
         },
         {
-            name: "Python",
-            description: "The ultimate tool for web design and prototyping. Create stunning designs with precision and creativity.",
-            price: "$20",
+            name: "C#",
+            description: "A modern, versatile programming language developed by Microsoft.",
+            price: "$70",
             category: "Programming",
-            imageUrl: "https://www.ntuclearninghub.com/documents/39367/4216797/Python-Symbol.png/369e410e-a90f-f887-c2dc-61f7ef761476/"
+            imageUrl: "https://seeklogo.com/images/C/c-sharp-c-logo-02F17714BA-seeklogo.com.png"
+        },
+        {
+            name: "Python",
+            description: "A high-level programming language known for its simplicity and readability.",
+            price: "$70",
+            category: "Programming",
+            imageUrl: "https://seeklogo.com/images/P/python-logo-A32636CAA3-seeklogo.com.png"
+        },
+        {
+            name: "Java",
+            description: "A robust, platform-independent programming language commonly used for enterprise applications.",
+            price: "$70",
+            category: "Programming",
+            imageUrl: "https://seeklogo.com/images/J/java-logo-7833D1D21A-seeklogo.com.png"
         }
     ];
+    
 
     return (
         <motion.div

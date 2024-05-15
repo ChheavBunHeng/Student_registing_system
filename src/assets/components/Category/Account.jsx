@@ -5,19 +5,20 @@ function Account() {
     const Products = [
         {
             name: "Peach tree Accounting",
-            description: "The ultimate tool for accounting. Unlock your creativity with powerful features and precise control.",
-            price: "$10",
+            description: "A comprehensive accounting software offering precise control and powerful features.",
+            price: "$45",
             category: "Accounting",
             imageUrl: "https://businessyield.com/wp-content/uploads/2021/06/peachtreebySage.jpg"
         },
         {
             name: "QuickBooks Premium",
-            description: "The ultimate tool for accounting. Unlock your creativity with powerful features and precise control.",
-            price: "$10",
+            description: "A feature-rich accounting solution providing precise control and powerful tools.",
+            price: "$45",
             category: "Accounting",
             imageUrl: "https://rksbusiness.com/wp-content/uploads/2022/09/QuickBooks-Logo-Preferred-RGB.png"
-        }
+        },
     ];
+    
 
     return (
         <motion.div
