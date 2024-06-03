@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import "./Home_page.css";
 
 // Import images
 import Officeimg from "./image/Office.png";
@@ -23,13 +22,14 @@ import VideoEditing from "../Category/VideoEditing.jsx";
 
 function Home_Page() {
     const Products = [
-        { Name: "Office", Component: Office, Image: Officeimg, Desc: "Learn with expert anytime anywhere", Path: "/office" },
-        { Name: "Coding", Component: Programming, Image: coding, Desc: "Learn with expert anytime anywhere", Path: "/coding" },
-        { Name: "Accounting", Component: Account, Image: accounting, Desc: "Learn with expert anytime anywhere", Path: "/accounting" },
-        { Name: "Video Editing", Component: VideoEditing, Image: montage, Desc: "Learn with expert anytime anywhere", Path: "/montage" },
-        { Name: "Design", Component: Design, Image: desgin, Desc: "Learn with expert anytime anywhere", Path: "/design" },
-        { Name: "Database", Component: Database, Image: databaseManagement, Desc: "Learn with expert anytime anywhere", Path: "/database" },
-        { Name: "WebDev", Component: WebDev, Image: webdevimg, Desc: "Learn with expert anytime anywhere", Path: "/webdev" },
+        { Name: "Office", Component: Office, Image: Officeimg, Desc: "Master Office Skills On-the-Go", Path: "/office" },
+        { Name: "Coding", Component: Programming, Image: coding, Desc: "Dive into Coding Expertise", Path: "/coding" },
+        { Name: "Accounting", Component: Account, Image: accounting, Desc: "Explore Accounting Mastery", Path: "/accounting" },
+        { Name: "Video Editing", Component: VideoEditing, Image: montage, Desc: "Craft Montage Magic Anywhere", Path: "/montage" },
+        { Name: "Design", Component: Design, Image: desgin, Desc: "Unleash Design Brilliance On-the-Go", Path: "/design" },
+        { Name: "Database", Component: Database, Image: databaseManagement, Desc: "Delve into Database Mastery", Path: "/database" },
+        { Name: "WebDev", Component: WebDev, Image: webdevimg, Desc: "Discover Web Development Expertise", Path: "/webdev" }
+        
     ];
 
     // Function to handle smooth scrolling behavior
@@ -58,13 +58,13 @@ function Home_Page() {
             </div>
 
             <BrowserRouter>
-                <div className="flex justify-center items-center flex-wrap flex-row px-[32px] sm:">
+                <div className="w-full flex justify-center items-center flex-wrap flex-row px-[10px] sm:px-[32px]">
                     {/* Render navigation links */}
                     {Products.map((Product, index) => (
-                        <a key={index} href={Product.Path} onClick={() => scrollToSection(Product.Path)} className="flex flex-col items-center justify-center m-4 border p-[30px]">
-                            <img src={Product.Image} alt={Product.Name} className="max-w-xs" />
-                            <h1 className="text-lg font-semibold">{Product.Name}</h1> 
-                            <p className="text-sm">{Product.Desc}</p>
+                        <a key={index} href={Product.Path} onClick={() => scrollToSection(Product.Path)} className="w-1/2 w-auto flex flex-col items-center justify-center border m-2 p-[10px] sm:p-[30px] sm:m-4">
+                            <img src={Product.Image} alt={Product.Name} className="w-10 h-10 sm:w-32 sm:h-32" />
+                            <h1 className="text-[12px] sm:text-lg sm:font-semibold">{Product.Name}</h1> 
+                            <p className="text text-[9px] sm:text-sm">{Product.Desc}</p>
                         </a>
                     ))}
                 </div>
