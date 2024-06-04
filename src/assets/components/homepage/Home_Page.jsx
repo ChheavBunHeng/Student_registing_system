@@ -61,7 +61,7 @@ function Home_Page() {
                 <div className="w-full flex justify-center items-center flex-wrap flex-row px-[10px] sm:px-[32px]">
                     {/* Render navigation links */}
                     {Products.map((Product, index) => (
-                        <a key={index} href={Product.Path} onClick={() => scrollToSection(Product.Path)} className="w-1/2 w-auto flex flex-col items-center justify-center border m-2 p-[10px] sm:p-[30px] sm:m-4">
+                        <a key={index} href={Product.Path} onClick={() => scrollToSection(Product.Path)} className="flex flex-col items-center justify-center border m-2 p-[10px] w-[150px] h-[100px] sm:p-[30px] sm:m-4">
                             <img src={Product.Image} alt={Product.Name} className="w-10 h-10 sm:w-32 sm:h-32" />
                             <h1 className="text-[12px] sm:text-lg sm:font-semibold">{Product.Name}</h1> 
                             <p className="text text-[9px] sm:text-sm">{Product.Desc}</p>
