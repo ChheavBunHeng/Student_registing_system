@@ -51,7 +51,7 @@ function Home_Page() {
             {/* Top Panel */}
             <div className="Home_Panel flex flex-row w-screen flex-wrap h-[30vh] bg-gray-100 ">
                 <div className="Text-panel w-1/2 h-36 flex justify-center align-middle p-10">
-                    <h1 className="text-sm md:text-2xl font-bold">Learn with expert anytime anywhere</h1>
+                    <h1 className="font-roboto text-sm md:text-2xl font-bold">Learn with expert anytime anywhere</h1>
                     <h3 className="text-sm md:text-2xl">Our mission is to help people to find the best course for their needs with the experience of our teacher</h3>
                 </div>
                 <img src={CitoImage} className="w-1/2 h-[30vh] object-cover"/>
@@ -61,10 +61,10 @@ function Home_Page() {
                 <div className="w-full flex justify-center items-center flex-wrap flex-row px-[10px] sm:px-[32px]">
                     {/* Render navigation links */}
                     {Products.map((Product, index) => (
-                        <a key={index} href={Product.Path} onClick={() => scrollToSection(Product.Path)} className="flex flex-col items-center justify-center border m-2 p-[10px] w-[150px] h-[100px] sm:p-[30px] sm:m-4">
+                        <a key={index} href={Product.Path} onClick={() => scrollToSection(Product.Path)} className="flex flex-col items-center justify-center border m-2 p-[10px] w-[150px] h-[100px] sm:w-[350px] sm:h-[250px] sm:p-[30px] sm:m-4">
                             <img src={Product.Image} alt={Product.Name} className="w-10 h-10 sm:w-32 sm:h-32" />
-                            <h1 className="text-[12px] sm:text-lg sm:font-semibold">{Product.Name}</h1> 
-                            <p className="text text-[9px] sm:text-sm">{Product.Desc}</p>
+                            <h1 className="text-[12px] font-bold font-roboto sm:text-lg ">{Product.Name}</h1> 
+                            <p className="text text-[9px] font-roboto font-medium sm:text-sm">{Product.Desc}</p>
                         </a>
                     ))}
                 </div>
