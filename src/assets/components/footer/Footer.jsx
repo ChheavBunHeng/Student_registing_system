@@ -7,7 +7,7 @@ function Footer() {
       {/* Media Section */}
       <div className="media-contain w-full md:w-[300px] flex flex-col justify-center  ">
         <h4 className="title text-xl md:text-2xl font-extrabold mb-4">Media</h4>
-        <p className="text-sm md:text-base text-center">Stay updated by connecting with us on Facebook and Telegram.</p>
+        <p className="text-sm md:text-base text-center">Stay updated by connecting with us on Facebook, Telegram and Youtube.</p>
         <ul className="flex flex-row gap-2 md:gap-4 justify-center">
           <li><a href="https://web.facebook.com/citocomputer" className="text-blue-900 hover:text-blue-600 transition duration-300 font-bold">Facebook</a></li>
           <li><a href="https://t.me/citocomputer" className="text-blue-900 hover:text-blue-600 transition duration-300 font-bold">Telegram</a></li>

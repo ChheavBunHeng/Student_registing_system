@@ -1,7 +1,6 @@
 import React from 'react';
-import {motion} from "framer-motion";
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import HomePage from './assets/components/homepage/Home_Page.jsx';
-import NavBar from './assets/components/navbar/Navbar.jsx';
 import TopNavBar from "./assets/components/navbar/TopNavBar.jsx";
 import Signup from './assets/components/signup/Signup.jsx';
 import Signin from './assets/components/signin/Signin.jsx';
@@ -13,18 +12,16 @@ import Database from './assets/components/Category/Database.jsx';
 import WebDev from './assets/components/Category/WebDev.jsx';
 import VideoEditing from './assets/components/Category/VideoEditing.jsx';
 import Footer from './assets/components/footer/Footer.jsx';
-import Navbar from './assets/components/navbar/Navbar.jsx';
 import Support from './assets/components/footer/Support.jsx';
+import NotFound from "./assets/components/Error/NotFound.jsx";
+// import ServiceJS from "./assets/server/server.js";
 function App() {
   return (
-    <div className='overflow-x-hidden overflow-y-hidden'>
-      <TopNavBar></TopNavBar>
-      <div className='flex gap-[32px]'>
-      <HomePage className='w-full'></HomePage>
+      <div className='overflow-x-hidden overflow-y-hidden'>
+        <div className='flex gap-[32px]'>
+          <HomePage></HomePage>
+        </div>
       </div>
-      <Support></Support>
-      <Footer></Footer> 
-    </div>
   );
 }
 
