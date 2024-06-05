@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+// import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import HomePage from './assets/components/homepage/Home_Page.jsx';
 import TopNavBar from "./assets/components/navbar/TopNavBar.jsx";
 import Signup from './assets/components/signup/Signup.jsx';
@@ -19,7 +19,10 @@ function App() {
   return (
       <div className='overflow-x-hidden overflow-y-hidden'>
         <div className='flex gap-[32px]'>
+          <TopNavBar></TopNavBar>
           <HomePage></HomePage>
+          <Support></Support>
+          <Footer></Footer>
         </div>
       </div>
   );

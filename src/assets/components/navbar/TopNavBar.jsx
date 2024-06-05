@@ -13,7 +13,7 @@ function TopNavBar() {
         <a href="#" className="p-5 md:p-10 hover:text-gray-700 text-bold text-[15px] md:text-[25px] transition duration-300">Courses</a>
       </div>
       <div className="font-bold text-xs md:text-2xl">
-        <a href="#" className="p-5 md:p-10 hover:text-gray-700 text-bold text-[15px] md:text-[25px] transition duration-300">Contact</a>
+        <a href="#" className="p-5 md:p-10 hover:text-gray-700 tex`t-bold text-[15px] md:text-[25px] transition duration-300">Contact</a>
         <a href="#" className="p-5 md:p-10 hover:text-gray-700 text-bold text-[15px] md:text-[25px] transition duration-300">About</a>
       </div>
       </div>
